@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  layoutlmv2-trainer:
+    build: .
+    volumes:
+      - .:/app
+    tty: true

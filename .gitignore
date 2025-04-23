@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+*.env
+*.venv
+.env.*
+
+# VS Code
+.vscode/
+
+# Dữ liệu
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.pdf
+*.tiff
+*.webp
+*.gif
+
+# Dữ liệu gán nhãn
+/label/
+/annotations/
+/images/
+/outputs/
+*.jsonl
+*.csv
+*.tsv
+
+# Hugging Face Trainer
+/checkpoint-*/
+/logs/
+/runs/
+
+# Model
+pytorch_model.bin
+*.ckpt
+*.h5
+*.onnx
+*.npz
+
+# Cache (HuggingFace)
+~/.cache/
+.cache/
+datasets/
+__pycache__/
+
+# Jupyter Notebook outputs
+*.ipynb
+
+# Colab
+sample_data/
+
+# Others
+.DS_Store
+Thumbs.db
+
+transformers/
+unilm/
+data/
+cache/
+layoutlmv2_env/
+layoutlmv2-inbody/
+training_data/
+testing_data/

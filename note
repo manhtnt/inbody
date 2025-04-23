@@ -1,0 +1,14 @@
+docker build -t layoutlmv2-cpu .
+docker run -it --rm -v $PWD:/app layoutlmv2-cpu
+
+# 1. Build
+docker-compose build
+
+# 2. Chạy container
+docker-compose run layoutlmv2-cpu bash
+
+# 3. Khi vào trong container, chạy file của bạn
+python train.py
+
+
+source layoutlmv2_env/bin/activate
